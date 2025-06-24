@@ -29,7 +29,7 @@ use TLT\Cecahmac\Hmac;
 $signature = 'request, as described in the documentation';
 
 // Create encryptor
-$encryptor = new Hmac(32bytes_encryption_key_from_bank_confog);
+$encryptor = new Hmac(32bytes_encryption_key_from_bank_config);
 
 // Sign the request. The signature is in base64 and ready to POST
 $firma = $hmac->makeSignature($signature, operation_number); 
