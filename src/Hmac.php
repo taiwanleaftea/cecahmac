@@ -7,7 +7,7 @@ use Exception;
 class Hmac
 {
     /**
-     * Encryption key in binary format
+     * Encryption key in binary format (decoded)
      * @var string
      */
     private $encryptionKey;
