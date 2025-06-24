@@ -1,0 +1,25 @@
+{
+  "name": "taiwanleaftea/cecahmac",
+  "description": "Implementation of the new encryption algorithm for CECABANK payment gateway",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Taiwanleaftea",
+      "email": "support@taiwanleaftea.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "ext-openssl": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "TLT\\Cecahmac\\": "src"
+    },
+    "files": [
+    ]
+  }
+}
